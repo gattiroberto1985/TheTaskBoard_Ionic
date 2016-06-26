@@ -1,0 +1,40 @@
+<ion-view style="" id="page5" title="Project details">
+    <ion-content class="has-header" padding="true">
+        <form style="" class="list">
+            <label style="" name="description" class="item item-input">
+                <span class="input-label">Descrizione:</span><textarea placeholder="description"> Progetto ALM: soluzione di rilascio fast con Nexus ed SDA</textarea>
+            </label>
+            <label style="" name="status" class="item item-select">
+                <span class="input-label">Stato:</span>
+                <select>
+                    <option>Aperto</option>
+                    <option>In Lavorazione</option>
+                    <option>In Pausa</option>
+                    <option>Chiuso</option>
+                </select>
+            </label>
+            <label style="" name="owner" class="item item-select">
+                <span class="input-label">In carico a:</span>
+                <select>
+                    <option>Roberto</option>
+                    <option></option>
+                </select>
+            </label>
+            <label style="" name="dateOpen" class="item item-input">
+                <span class="input-label">Aperto:</span>
+                <input placeholder="Data di apertura" type="date">
+            </label>
+            <label style="" class="item item-input">
+                <span class="input-label">Chiuso:</span>
+                <input placeholder="Data chiusura" type="text">
+            </label>
+            <label style="" class="item item-input">
+                <span class="input-label">Aggiornato:</span>
+                <input placeholder="Data ultimo aggiornamento" type="text">
+            </label>
+        </form>
+        <a class="button button-positive  button-block button-clear icon-right ion-android-arrow-dropright-circle" style="text-align:left;" id="projectDetails-button1" ui-sref="menu.projectHistory">Cronostoria</a>
+        <a class="button button-positive  button-block button-clear icon-right ion-android-arrow-dropright-circle" style="text-align:left;" id="projectDetails-button2" ui-sref="menu.projectNotes">Note</a>
+        <a class="button button-positive  button-block button-clear icon-right ion-android-arrow-dropright-circle" style="text-align:left;" id="projectDetails-button3" href="mailto:">Tasks</a>
+    </ion-content>
+</ion-view>
